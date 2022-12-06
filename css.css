@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.topnav {
+    background-color: rgb(55, 54, 54);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4ca251;
+    color: rgb(4, 1, 1);
+    font-family:'Calibri'
+    ;
+    font-size: 25px;
+    text-align: center;
+  }
+  .art{
+    border-style: solid;
+    background-color:rgb(224, 219, 219);
+    padding-bottom: 10px; 
+    /* border:2px solid red ; */
+  }
+
+  .main__page{
+    /* border: 2px solid red ; */
+    /* height: 90vh; */
+    display: flex;
+  }
+  .left__mainPage{
+    /* border: 1px solid green; */
+    /* width: 50rem;
+     */
+    
+     width: 100vh;
+     display: grid;
+    /* height: fit-content; */
+    place-items: center;
+    gap: 2rem;
+  }
+  .right__mainPage{
+    color: rgb(229, 226, 226);
+    width: 85vh;
+    /* border: 2px solid yellow; */
+    display: grid;
+    place-items: center;
+    position: absolute;
+  }
+  .trendingBox{
+    border: 2px solid palevioletred;
+    height: 33rem;
+    width: 38rem;
+    background: rgb(242, 245, 246);
+    color: black;
+    margin: 0 0 280px 0;
+    position: relative;
+    left: 50rem;
+    top: 4rem;
+  }
+  .trendingBox > ol{
+    padding: 1rem;
+  }
+  .trendingBox > ol>li{
+    padding: 10px;
+  }
+  .trendingBox > h3{
+    text-align: center;
+    font-size: xx-large;
+  }
+  .button > button {
+    float:right;
+  }
+  article > img { 
+    height: 23rem;
+  }
+  .Becomeasupporter {
+    background-color: rgb(55, 54, 54);
+    overflow: hidden;
+    position: relative;
+    left: 45rem;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .Becomeasupporter a {
+    float: left;
+    color: #110c0c;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  
+  /* Change the color of links on hover */
+  .Becomeasupporter a:hover {
+    background-color: rgb(248, 244, 244);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .Becomeasupporter a.active {
+    background-color: #4ca251;
+    color: rgb(0, 0, 0);
+    font-family:'Calibri'
+    ;
+    font-size: 25px;
+    text-align: center;
+  }
+  .Becomeasupporter{
+    border: 2px solid palevioletred;
+    height: 16rem;
+    width: 29rem;
+    background: rgb(218, 217, 220);
+    color:black; 
+    margin: 0 0 0 18rem;
+  }
+  .Becomeasupporter > ul{
+    padding: 1rem;
+  }
+  .Becomeasupporter > ul>li{
+    padding: 10px;
+  }
+
+  .Becomeasupporter > h2{
+    text-align: center;
+  }
+  .button > button {
+    float:right;
+  }
+  article > img { 
+    height: 23rem;
+  }
+ .loginBtn{
+  padding: 8px;
+    border-radius: 12px;
+    width: 82px;
+ }
+ .loginBtn:hover{
+  cursor: pointer;
+ }
+
+ .footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+ }
